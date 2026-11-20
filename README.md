@@ -1,9 +1,8 @@
-Project Overview
-This project investigates how increasing the symbolic complexity of mathematical equations affects the accuracy of large language models (LLMs).
+This project investigates how increasing the complexity of mathematical equations affects the accuracy of large language models (LLMs).
 
 Our main research question is:
 
-Does increasing the symbolic complexity of an equation reduce the accuracy of LLMs when solving mathematically equivalent or structurally similar problems?
+Does increasing the complexity of an equation reduce the accuracy of LLMs when solving mathematically equivalent or structurally similar problems?
 
 We expect model accuracy to decrease as equations become more complex, even when the underlying mathematical concepts remain the same.
 
@@ -35,7 +34,7 @@ Our primary evaluation metric will be accuracy, measured as the percentage of co
 
 We will compare the performance of both models and investigate which mathematical modifications cause the largest decreases in accuracy.
 
-Technologies
+Technologies used:
 Python
 Hugging Face Datasets
 Hugging Face Transformers
